@@ -1,22 +1,64 @@
 <!DOCTYPE html> 
 
 <html>
-<header>
-
+<head>
     <title>
-
-        First Landing Page
-
+        Receba seu Desconto - Daddy's Burguer
     </title>
-
+<!-- meta charset function is to make the browser understand some caracters and print them on title --> 
 <meta charset="utf-8">
+  
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-</header>
+<link rel="icon" href="images/ico.png" type="image/png">
+<link rel="stylesheet" href="CSS/style.css" type="text/css">
+</head>
 
 <body>
 
+    <div class="container">
+
+         <header>
+             <h1 class="title"> DESFRUTE DESSE SABOR INCRIVEL</h1>
+         </header> 
+
+ <!-- The form is only used to capture information from user -->  
+
+         <section>                     
+
+            <div class="formContainer">
+
+                <h2>                    
+                    GARANTA O SEU DESCONTO DE 70% OFF NO MELHOR HAMURGUER DE TODA GRANDE SÃO PAULO
+                </h2>
+                <br>
+                <p>
+                    Acreditamos que você merece o melhor por um preço incrivel,
+                    sabendo disso, nossa equipe decidiu te entregar o melhor hamburguer
+                     pelo melhor preço!
+                </p>
+                <br>
+                <form>
+                    <input id="name" name="name" type="text" placeholder="Qual o seu nome?">
+                    <input id="tel" name="tel" type="tel" placeholder="Qual o seu celular?">
+
+                    <select name="city">                        
+                        <option value="sa">Santo André</option>
+                        <option value="maua">Mauá</option>
+                        <option value="rp">Ribeirão Pires</option>
+                        <option value="rgs">Rio Grande da Serra</option>
+                        <option value="sbc">São Bernardo do Campo</option>
+                        <option value="other">Outro</option>
+                    </select>
+                    
+                    <input type="submit" value="Receba Agora">
+                </form>
+
+            </div>
+
+         </section>
+
+    </div>
 </body>
 
 </html>
