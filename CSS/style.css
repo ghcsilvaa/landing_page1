@@ -42,8 +42,7 @@ section{
         background-color: #bd6b6bbb;
         padding: 20px;
         float: right;
-        margin-top: 10px;   
-    
+        margin-top: 10px;       
 }
 
 h2{
@@ -80,4 +79,17 @@ input[type="submit"]
     background-color: red;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:500px)
+{
+        
+.formContainer{
+        float: none;
+        position: relative;
+        left: 50%;
+        transform:translateX(-50%); 
+}
+
 }
